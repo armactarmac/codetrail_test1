@@ -1,0 +1,62 @@
+- generic [active] [ref=f9e1]:
+  - main [ref=f9e2]:
+    - link "Code Trails home" [ref=f9e4] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=f9e8]: Code Trails
+    - region "Code scoring workspace" [ref=f9e9]:
+      - generic [ref=f9e10]:
+        - generic [ref=f9e11]:
+          - generic [ref=f9e12]:
+            - generic [ref=f9e17]: Your code
+            - generic [ref=f9e18]: JavaScript
+          - generic [ref=f9e19]:
+            - generic [ref=f9e20]: 4 lines
+            - button "Open file" [ref=f9e22] [cursor=pointer]
+        - generic [ref=f9e25]:
+          - generic:
+            - generic: "01"
+            - generic: "02"
+            - generic: "03"
+            - generic: "04"
+          - textbox "Code input" [ref=f9e26]:
+            - /placeholder: Paste your code here, or drop a file...
+            - text: "const password = \"secret123\"; eval(input); console.error(\"bad\"); function broken() {"
+        - button "Score the code →" [ref=f9e28] [cursor=pointer]:
+          - text: Score the code
+          - generic [ref=f9e49]: →
+      - generic [ref=f9e33]:
+        - generic [ref=f9e34]:
+          - generic [ref=f9e35]:
+            - paragraph [ref=f9e36]: Code score
+            - heading "Your score" [level=1] [ref=f9e37]
+          - generic [ref=f9e38]: Scored locally
+        - generic [ref=f9e41]:
+          - generic [ref=f9e42]:
+            - generic [ref=f9e50]: "48"
+            - generic [ref=f9e51]:
+              - paragraph [ref=f9e52]: Needs attention
+              - paragraph [ref=f9e53]: out of 100
+          - generic [ref=f9e54]:
+            - paragraph [ref=f9e55]: Local code quality score
+            - paragraph [ref=f9e56]: This quick scan found issues worth reviewing. An AI agent can provide deeper, language-specific feedback when connected.
+            - generic [ref=f9e57]:
+              - generic [ref=f9e58]:
+                - paragraph [ref=f9e59]: Errors
+                - paragraph [ref=f9e60]: 2 found
+              - generic [ref=f9e61]:
+                - paragraph [ref=f9e62]: Security flaws
+                - paragraph [ref=f9e63]: 2 found
+              - generic [ref=f9e64]:
+                - paragraph [ref=f9e65]: Lines analyzed
+                - paragraph [ref=f9e66]: "4"
+              - generic [ref=f9e67]:
+                - paragraph [ref=f9e68]: Language
+                - paragraph [ref=f9e69]: JavaScript
+            - generic [ref=f9e70]:
+              - paragraph [ref=f9e71]: Findings
+              - generic [ref=f9e72]:
+                - generic [ref=f9e73]: "Unclosed delimiter · line 4 — The { opened here is never closed."
+                - generic [ref=f9e76]: Error logging found · line 3 — Review whether this error is handled or only logged.
+                - generic [ref=f9e79]: Possible hardcoded secret · line 1 — Move credentials into a secret manager or environment variable.
+                - generic [ref=f9e82]: Dynamic code execution · line 2 — Dynamic execution can turn untrusted input into executable code.
+  - alert [ref=f9e48]

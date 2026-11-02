@@ -1,0 +1,60 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "Code Trails home" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e8]: Code Trails
+      - button "Configure Free AI" [ref=e10] [cursor=pointer]:
+        - generic [ref=e14]: Local Mode
+        - generic [ref=e15]: Enable Free AI
+    - region "Code scoring workspace" [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - generic "untitled.ts" [ref=e61]: Your code
+            - generic [ref=e25]:
+              - generic [ref=e26]: Language
+              - combobox "Select programming language" [ref=e27] [cursor=pointer]:
+                - option "JavaScript"
+                - option "TypeScript" [selected]
+                - option "JSX"
+                - option "TSX"
+                - option "Python"
+                - option "Java"
+                - option "C / C++"
+                - option "Go"
+                - option "Rust"
+                - option "Ruby"
+                - option "PHP"
+                - option "Swift"
+                - option "Kotlin"
+                - option "SQL"
+                - option "HTML"
+                - option "CSS"
+                - option "JSON"
+                - option "Plain text"
+          - generic [ref=e28]:
+            - generic [ref=e29]: 4 lines
+            - button "Open file" [ref=e31] [cursor=pointer]
+        - generic [ref=e34]:
+          - generic:
+            - generic: "01"
+            - generic: "02"
+            - generic: "03"
+            - generic: "04"
+          - textbox "Code input" [active] [ref=e35]:
+            - /placeholder: Paste your code here, or drop a file...
+            - text: "def greet(name): return f\"Hello {name}\" print(greet(\"world\"))"
+        - button "Score the code →" [ref=e37] [cursor=pointer]:
+          - text: Score the code
+          - generic [ref=e41]: →
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - paragraph [ref=e47]: Code score
+            - heading "Score summary" [level=1] [ref=e48]
+          - generic [ref=e49]: Waiting for code
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: Your code score will appear here
+          - paragraph [ref=e59]: Paste or upload code, then score it.
+  - alert [ref=e60]

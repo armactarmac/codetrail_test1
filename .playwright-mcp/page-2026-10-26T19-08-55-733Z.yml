@@ -1,0 +1,31 @@
+- generic [active] [ref=f12e1]:
+  - main [ref=f12e2]:
+    - link "Code Trails home" [ref=f12e4] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=f12e8]: Code Trails
+    - region "Code scoring workspace" [ref=f12e9]:
+      - generic [ref=f12e10]:
+        - generic [ref=f12e11]:
+          - generic [ref=f12e12]:
+            - generic [ref=f12e17]: Your code
+            - generic [ref=f12e18]: JavaScript
+          - generic [ref=f12e19]:
+            - generic [ref=f12e20]: 1 line
+            - button "Open file" [ref=f12e22] [cursor=pointer]
+        - generic [ref=f12e25]:
+          - generic: "01"
+          - textbox "Code input" [ref=f12e26]:
+            - /placeholder: Paste your code here, or drop a file...
+        - button "Score the code →" [disabled] [ref=f12e28]:
+          - text: Score the code
+          - generic [ref=f12e32]: →
+      - generic [ref=f12e33]:
+        - generic [ref=f12e34]:
+          - generic [ref=f12e35]:
+            - paragraph [ref=f12e36]: Code score
+            - heading "Score summary" [level=1] [ref=f12e37]
+          - generic [ref=f12e38]: Waiting for code
+        - generic [ref=f12e46]:
+          - paragraph [ref=f12e47]: Your code score will appear here
+          - paragraph [ref=f12e48]: Paste or upload code, then score it.
+  - alert [ref=f12e49]

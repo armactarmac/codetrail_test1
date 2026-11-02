@@ -1,0 +1,56 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "CodePilot home" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e8]: codepilot
+      - generic [ref=e9]:
+        - link "How it works" [ref=e10] [cursor=pointer]:
+          - /url: "#how-it-works"
+        - link "Docs" [ref=e11] [cursor=pointer]:
+          - /url: "#output"
+        - button "Sign in" [ref=e13] [cursor=pointer]
+    - generic [ref=e14]:
+      - generic [ref=e15]: AI code analysis
+      - heading "Make sense of any code." [level=1] [ref=e17]
+      - paragraph [ref=e18]: Paste a snippet or upload a file. Get a clear, thoughtful explanation of what it does and how it works.
+    - region "Code analysis workspace" [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - generic [ref=e27]: Your code
+            - generic [ref=e28]: JavaScript
+          - generic [ref=e29]:
+            - generic [ref=e30]: 6 lines
+            - button "Open file" [ref=e32] [cursor=pointer]
+        - generic [ref=e35]:
+          - generic:
+            - generic: "01"
+            - generic: "02"
+            - generic: "03"
+            - generic: "04"
+            - generic: "05"
+            - generic: "06"
+          - textbox "Code input" [ref=e36]:
+            - /placeholder: Paste your code here, or drop a file...
+            - text: "function greet(name) { const message = `Hello, ${name}!`; return message; } greet(\"world\");"
+        - generic [ref=e37]:
+          - paragraph [ref=e38]: Supports any programming language · Max 10 MB
+          - button "Analyse the code →" [ref=e39] [cursor=pointer]:
+            - text: Analyse the code
+            - generic [ref=e42]: →
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - paragraph [ref=e46]: Analysis output
+            - heading "What your code is doing" [level=2] [ref=e47]
+          - generic [ref=e48]: Waiting for code
+        - generic [ref=e51]:
+          - paragraph [ref=e55]: Your analysis will appear here
+          - paragraph [ref=e56]: Add code above and select “Analyse the code” to get started.
+    - generic [ref=e58]:
+      - paragraph [ref=e59]: Built for clearer code and better conversations.
+      - generic [ref=e60]:
+        - generic [ref=e61]: AI-ready workspace
+        - generic [ref=e63]: © 2024 CodePilot
+  - alert [ref=e64]

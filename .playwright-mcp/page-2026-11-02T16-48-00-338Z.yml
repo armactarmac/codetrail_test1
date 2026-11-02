@@ -1,0 +1,57 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "Code Trails home" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e8]: Code Trails
+      - button "Configure Free AI" [ref=e10] [cursor=pointer]:
+        - generic [ref=e12]: "Google: Auto (Best Available)"
+        - generic [ref=e13]: ⚙
+    - region "Code scoring workspace" [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - generic "untitled.js" [ref=e22]: Your code
+            - generic [ref=e23]:
+              - generic [ref=e24]: Language
+              - combobox "Select programming language" [ref=e25] [cursor=pointer]:
+                - option "JavaScript" [selected]
+                - option "TypeScript"
+                - option "JSX"
+                - option "TSX"
+                - option "Python"
+                - option "Java"
+                - option "C / C++"
+                - option "Go"
+                - option "Rust"
+                - option "Ruby"
+                - option "PHP"
+                - option "Swift"
+                - option "Kotlin"
+                - option "SQL"
+                - option "HTML"
+                - option "CSS"
+                - option "JSON"
+                - option "Plain text"
+          - generic [ref=e26]:
+            - generic [ref=e27]: 1 line
+            - button "Open file" [ref=e29] [cursor=pointer]
+        - generic [ref=e32]:
+          - generic: "01"
+          - textbox "Code input" [ref=e33]:
+            - /placeholder: Paste your code here, or drop a file...
+        - generic [ref=e34]:
+          - button "Score with AI →" [disabled] [ref=e35]:
+            - text: Score with AI
+            - generic [ref=e39]: →
+          - alert [ref=e41]: Add some code before scoring.
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - paragraph [ref=e45]: Code score
+            - heading "Score summary" [level=1] [ref=e46]
+          - generic [ref=e47]: Waiting for code
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: Your code score will appear here
+          - paragraph [ref=e57]: Paste or upload code, then score it.
+  - alert [ref=e58]
